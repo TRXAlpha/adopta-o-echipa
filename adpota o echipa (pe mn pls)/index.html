@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopta o echipa!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3e3e1;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #fff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header .helix {
+            position: absolute;
+            bottom: 50px;
+            left: 0;
+        }
+
+        header .logo {
+            position: absolute;
+            bottom: 60px;
+            right: 0;
+        }
+
+        .content {
+            margin: 20px;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .container img {
+            width: 20%;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .container .text {
+            width: 70%;
+            font-size: 23px;
+            padding: 0;
+            margin-left: 20px;
+        }
+
+        .sign-up {
+            text-align: right;
+            padding: 20px;
+        }
+
+        .sign-up button {
+            padding: 10px 20px;
+            background-color: #000;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function signup() {
+            window.location.href = "https://helixrobotics.ro";
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src=" logo-d.png" alt="New Image" class="helix">
+        <div class="panglica">
+            <img src="new-banner.png" alt="Logo" class="logo">
+        </div>
+    </header>
+    <div class="content">
+        <h1>Adopta o echipa!</h1>
+        <div class="container">
+            <img src="helix2.png" alt="Image">
+            <div class="text">
+                <p>Bine ați venit pe platforma noastră dedicată echipelor de FTC! Noi suntem echipa Helix și am creat
+                    acest site pentru a sprijini echipele de FTC care au nevoie de ajutor în diverse domenii, precum
+                    mecanica, programarea sau obținerea de sponsorizări.Scopul nostru este de a crea o comunitate
+                    solidară în care echipele să își poată împărtăși cunoștințele și resursele pentru a atinge noi culmi
+                    în competițiile de FTC. Prin conceptul de "adoptare a echipelor", vrem să conectăm echipele care au
+                    nevoie de sprijin cu cele care sunt dispuse să ofere ajutor. Indiferent dacă sunteți o echipă în
+                    căutare de soluții tehnice, sfaturi de programare sau suport financiar, sau o echipă experimentată
+                    gata să ofere mentorat, platforma noastră este locul perfect pentru a începe.</p>
+            </div>
+        </div>
+        <div class="sign-up">
+            <button onclick="signup()">Sign Up</button>
+        </div>
+    </div>
+</body>
+
+</html>
